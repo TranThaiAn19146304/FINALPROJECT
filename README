@@ -1,1 +1,5 @@
-
+B1: dowload "source_nhandienlinhkien" convert folder
+B2: "get data" => run "B1_giaodien_layanh"
+B3: Convert data => run "B2_convert_data"
+B4: upload data to colab => model.h5
+B5: dowload model from colab => run "B3_giaodien_nhandang"
